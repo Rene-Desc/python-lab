@@ -57,7 +57,6 @@ def task_5():
 
 
 
-
 def task_6():
     a = np.arange(16).reshape(4,4)
     str1=np.array(a[0,:])
@@ -79,4 +78,3 @@ def task_8():
     arr = [int(element) for element in input().split(',')]
     arr2 = [w for w in range(len(arr)) if arr[w]]
     print(arr2)
-task_5()
